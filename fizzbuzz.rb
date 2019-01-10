@@ -4,11 +4,11 @@
 def fizzbuzz(num)
   if (num % 3 == 0)
     if (num  % 5 == 0)
-      return "fizzbuzz"
+      return "Fizzbuzz"
     end
-    return "fizz"
+    return "Fizz"
   elsif (num % 5 == 0)
-    return "buzz"
+    return "Buzz"
   else
     return nil
   end
